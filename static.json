@@ -1,7 +1,8 @@
 {
   "headers": {
     "/*": {
-      "X-Author": "vladsmirnovzzzz"
+      "X-Author": "vladsmirnovzzzz",
+      "Access-Control-Allow-Origin": "*"
     }
   }
 }
