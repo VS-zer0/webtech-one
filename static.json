@@ -2,9 +2,9 @@
   "headers": {
     "/*": {
       "X-Author": "vladsmirnovzzzz",
-      "X-Content-Type-Options": "nosniff",
       "Content-Type": "text/plain; charset=UTF-8",
-      "Access-Control-Allow-Origin": "*"
+      "Access-Control-Allow-Origin": "*",
+      "X-Content-Type-Options": "nosniff"
     }
   }
 }
