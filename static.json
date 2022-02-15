@@ -6,10 +6,8 @@
       "X-Content-Type-Options": "nosniff"
     },
     "/*/*":{
-      "X-Author": "vladsmirnovzzzz",
       "Content-Type": "text/plain; charset=UTF-8",
-      "Access-Control-Allow-Origin": "*",
-      "X-Content-Type-Options": "nosniff"
+      "Access-Control-Allow-Origin": "*"
     }
   }
 }
