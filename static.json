@@ -12,10 +12,10 @@
       "Access-Control-Allow-Origin": "*",
       "Content-Type": "text/plain; charset=UTF-8"
     },
-    "/promise/*"{
+    "/promise/*": {
       "Access-Control-Allow-Origin": "*"
     },
-    "/fetch/*"{
+    "/fetch/*": {
       "Access-Control-Allow-Origin": "*"
     }
   }
