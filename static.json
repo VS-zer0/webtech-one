@@ -11,6 +11,12 @@
     "/login/*": {
       "Access-Control-Allow-Origin": "*",
       "Content-Type": "text/plain; charset=UTF-8"
-    }    
+    },
+    "/promise/*"{
+      "Access-Control-Allow-Origin": "*"
+    },
+    "/fetch/*"{
+      "Access-Control-Allow-Origin": "*"
+    }
   }
 }
