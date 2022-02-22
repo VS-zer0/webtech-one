@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ </head>
+ <body>
+  <article>
+    <input id = "inp">
+    <button id = "bt">Button</button>
+  </article>
+   <script>{
+    const f = async () => {
+    	const n = document.querySelector('#inp').value;
+    	const res = await fetch(n).then(x => x.text());
+      	document.querySelector('#inp').value = res;
+    	}
+    document.querySelector('#bt').addEventListener('click', f);
+}</script> 
+ </body>
+</html>
